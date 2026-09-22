@@ -9,26 +9,26 @@
 </head>
 
 <body>
-    <div id="calculator">
-        <input id="display" readonly>
-        <div id="keys">
-            <button onclick="appendToDisplay('+')" class="operator-btn">+</button>
-            <button onclick="appendToDisplay('7')">7</button>
-            <button onclick="appendToDisplay('8')">8</button>
-            <button onclick="appendToDisplay('9')">9</button>
-            <button onclick="appendToDisplay('-')" class="operator-btn">-</button>
-            <button onclick="appendToDisplay('4')">4</button>
-            <button onclick="appendToDisplay('5')">5</button>
-            <button onclick="appendToDisplay('6')">6</button>
-            <button onclick="appendToDisplay('*')" class="operator-btn">x</button>
-            <button onclick="appendToDisplay('1')">1</button>
-            <button onclick="appendToDisplay('2')">2</button>
-            <button onclick="appendToDisplay('3')">3</button>
-            <button onclick="appendToDisplay('/')" class="operator-btn">/</button>
-            <button onclick="appendToDisplay('0')">0</button>
-            <button onclick="appendToDisplay('.')">.</button>
-            <button onclick="calculate()">=</button>
-            <button onclick="clearDisplay()" class="operator-btn">C</button>
+    <div id="calculator"> <!-- Container principal da calculadora -->
+        <input id="display" readonly> <!-- Display da calculadora, somente leitura para evitar edição direta -->
+        <div id="keys"> <!-- Botões da calculadora -->
+            <button onclick="appendToDisplay('+')" class="operator-btn">+</button> <!-- Botão de adição -->
+            <button onclick="appendToDisplay('7')">7</button> <!-- Botão de sete -->
+            <button onclick="appendToDisplay('8')">8</button> <!-- Botão de oito -->
+            <button onclick="appendToDisplay('9')">9</button> <!-- Botão de nove -->
+            <button onclick="appendToDisplay('-')" class="operator-btn">-</button> <!-- Botão de subtração -->
+            <button onclick="appendToDisplay('4')">4</button> <!-- Botão de quatro -->
+            <button onclick="appendToDisplay('5')">5</button> <!-- Botão de cinco -->
+            <button onclick="appendToDisplay('6')">6</button> <!-- Botão de seis -->
+            <button onclick="appendToDisplay('*')" class="operator-btn">x</button> <!-- Botão de multiplicação -->
+            <button onclick="appendToDisplay('1')">1</button> <!-- Botão de um -->
+            <button onclick="appendToDisplay('2')">2</button><!-- Botão de dois -->    
+            <button onclick="appendToDisplay('3')">3</button> <!-- Botão de três -->
+            <button onclick="appendToDisplay('/')" class="operator-btn">/</button> <!-- Botão de divisão -->
+            <button onclick="appendToDisplay('0')">0</button> <!-- Botão de zero -->
+            <button onclick="appendToDisplay('.')">.</button> <!-- Botão de ponto decimal -->
+            <button onclick="calculate()">=</button> <!-- Botão de igual para calcular a expressão -->
+            <button onclick="clearDisplay()" class="operator-btn">C</button> <!-- Botão de limpar o display -->
 
         </div>
 
